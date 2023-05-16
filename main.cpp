@@ -17,9 +17,9 @@ int main(void)
   for (int i = 0; i < SIZE - 1; i++, pa++)
   {
     cout<<setw(3)<<*pa<<" ";
-    cout<<pa<<endl;
+    //cout<<pa<<endl;
   }
-
+  cout<<endl;
     pa = &a[0]; pb = &a[SIZE - 1];
     cout<<"Reverse: ";
     for (int i = 0; i < SIZE / 2; i++) 
@@ -33,7 +33,7 @@ int main(void)
     for (int i = 0; i < SIZE - 1; i++,pa++)
     {
         cout<<setw(3)<<*pa<<" ";
-        cout<<pa<<endl;
+        //cout<<pa<<endl;
     }
     
 return 0;
