@@ -14,7 +14,7 @@ int main(void)
   
   pa = &a[0]; //pa = a;
   cout<< "Original: ";
-  for (int i = 0; i < SIZE - 1; i++, pa++)
+  for (int i = 0; i < SIZE; i++, pa++)
   {
     cout<<setw(3)<<*pa<<" ";
     //cout<<pa<<endl;
@@ -30,7 +30,7 @@ int main(void)
         pa++; pb--;
     }
     pa = &a[0];
-    for (int i = 0; i < SIZE - 1; i++,pa++)
+    for (int i = 0; i < SIZE; i++,pa++)
     {
         cout<<setw(3)<<*pa<<" ";
         //cout<<pa<<endl;
